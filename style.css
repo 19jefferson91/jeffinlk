@@ -1,0 +1,154 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+p{
+  font-size: 20px;
+}
+
+:root {
+  --cor-fundo: rgb(198, 44, 62);
+  --cor-branco: #fafafa;
+  --cor-cinza: #252525;
+  --cor-detalhe: #27AE60;
+  --tamanho-titulo: 50px;
+  --tamanho-subtitulo: 36px;
+  --tamanho-paragrafo: 24px;
+  --container: 10%;
+
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: var(--cor-fundo);
+  color: var(--cor-branco);
+  padding: 0px var(--container);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.logo-header h1 {
+  font-size: var(--tamanho-subtitulo);
+}
+
+.links-header a {
+  color: var(--cor-branco);
+  font-size: var(--tamanho-paragrafo);
+  margin-left: 30px;
+}
+
+.vatapá{
+  width:100% ;
+  height: 600px;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.bloco-vatapá{
+  width: 40%;
+
+}
+
+.bloco-vatapá h1{
+  font-size: 50px;
+}
+
+.vatapá img {
+  width: 600px;
+  
+}
+
+.cuscuz{
+  width:100% ;
+  height: 600px;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 20px solid red; border-top: 20px solid red
+}
+
+.bloco-cuscuz{
+  width: 40%;
+
+}
+.bloco-cuscuz h1{
+  font-size: 50px;
+}
+
+.cuscuz img {
+  width: 600px;
+  
+}
+
+
+.tacacá{
+  width:100% ;
+  height: 600px;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.bloco-tacacá{
+  width: 40%;
+
+}
+
+.bloco-tacacá h1{
+font-size: 50px;
+}
+
+
+.tacacá img {
+  width: 600px;
+  
+}
+
+.baiaodedois{
+  width:100% ;
+  height: 600px;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.bloco-baiaodedois{
+  width: 40%;
+
+}
+.bloco-baiaodedois h1{
+  font-size: 50px;
+}
+
+.baiaodedois img {
+  width: 600px;
+  
+}
+
+
+
+
+footer{
+  width: 100%;
+  height: 200px;
+  background-color: var(--cor-fundo);
+  padding: 0px var(--container);
+  display: flex;
+
+  align-items: center;
+  justify-content: center
+
+ }
